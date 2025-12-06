@@ -10,8 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     uploadBox.addEventListener('click', () => {
         videoInput.click();
     });
-
-    // 拖拽功能
+    
     uploadBox.addEventListener('dragover', (e) => {
         e.preventDefault();
         uploadBox.classList.add('dragover');
